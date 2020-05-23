@@ -12,11 +12,7 @@ const Congrats = ({ success }) => (
 );
 
 Congrats.propTypes = {
-	success: PropTypes.bool
-};
-
-Congrats.defaultProps = {
-	success: false
+	success: PropTypes.bool.isRequired
 };
 
 export default Congrats;
